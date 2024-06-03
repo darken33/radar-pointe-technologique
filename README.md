@@ -2,6 +2,6 @@
 Radar Techno : Comment rester à la pointe de la technologie ?
 
 
-Présentation : http://radar-pointe-technologique.s3-website.eu-west-3.amazonaws.com/
+Présentation : https://radar-technologique.pbousquet.net/
 
-![QR Code](style/prez-radar.png)
+![QR Code](style/radar-prez.png)
