@@ -111,7 +111,7 @@ image:style/quadrants.png[]
 [.text-left]
 * Techniques : Design First, DDD, Hexagonal, ...
 * Outils : IntelliJ, OWASP Tools, Karaté, Sonar, ...
-* Fameworks : Versions Java, Spring, Quarkus, ...
+* Frameworks : Versions Java, Spring, Quarkus, ...
 * Plateformes : Clouds, Serverless, Kubernetes, ...
 
 image:style/img-space.png[height=600]
@@ -156,24 +156,6 @@ Le radar possède 4 anneaux : ASSESS, TRIAL, ADOPT, HOLD
 * Il arrive qu'une technologie ne soit finalement pas convaincante, ou qu'au fil du temps elle soit un peu dépassée nous la passeront donc à Dépréciée, c'est adire que nous ne démmarerons pas de nouveaux projets avec elle, et que nous devons songer à la remplacer sur les porjets qui l'utilisent : cela fait partie de la gestion de la dette technique.
 --
 
-[background-image=style/sommaire.jpg, transition=none]
-== Les Architecture Decision Records
-
-[%step]
-[.text-left]
-* Acte une décision par rapport à une technologie
-* Date et décision concernant cette technologie
-* Une brève description du sujet
-* Un argumentaire justifiant la décision
-* Des références documentaires internes et externes
-
-image:style/img-space.png[height=600]
-
-[.notes]
---
-Un enregistrement de décision architecturale (ADR) est un document qui décrit le choix fait par la communauté concernant un sujet technologique et son utilisation au sein de SQLI, et comprend
---
-
 [background-image=style/radar.png, transition=none]
 == À quoi ça ressemble ?
 
@@ -203,6 +185,32 @@ Si on zoome sur la partie Langages & Fremworks nous y retrouvons en étude et ex
 * Les spécifications Async API
 * La possibilité de faire des applications natives avec Spring
 --
+
+[background-image=style/sommaire.jpg, transition=none]
+== Les Architecture Decision Records
+
+[%step]
+[.text-left]
+* Acte une décision par rapport à une technologie
+* Date et décision concernant cette technologie
+* Une brève description du sujet
+* Un argumentaire justifiant la décision
+* Des références documentaires internes et externes
+
+image:style/img-space.png[height=600]
+
+[.notes]
+--
+Un enregistrement de décision architecturale (ADR) est un document qui décrit le choix fait par la communauté concernant un sujet technologique et son utilisation au sein de SQLI, et comprend
+--
+
+[background-image=style/sommaire.jpg, transition=none]
+== Exemple : API First
+
+image:style/adr-api-first.png[height=600]
+
+image:style/img-space.png[height=150]
+
 
 [background-image=style/success.png, transition=none]
 == Success story : Java
@@ -236,7 +244,7 @@ Petit à petit nous avons étudiés les évolutions de java et finalement fin 20
 * Développeur(se) : Prépare ses formations
 * Commercial(e) : Détecter une avant vente intéressante
 * Recruteur(se) : Repérer un candidat intéressant
-* Eexpert(e))/Tech Lead : Organiser la veille
+* Expert(e)/Tech Lead : Organiser la veille
 * Chef(fe) de projet : Suivre la dette de son projet
 
 image:style/img-space.png[height=600]
