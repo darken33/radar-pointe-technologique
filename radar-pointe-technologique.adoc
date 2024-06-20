@@ -84,6 +84,7 @@ Celà présente également des risques et défis :
 * Favoriser le rayonnement technique
 * Renforcer le conseil AVV/Clients​
 * Alimenter les besoins en formation​
+* https://www.thoughtworks.com/radar[Radar ThoughtWorks]
 
 image:style/img-space.png[height=600]
 
@@ -265,6 +266,19 @@ Voici maintenant quelques exemples d'utilisation du radar
 
 [%step]
 image:style/LeRadarTechnologique.drawio.png[]
+
+image:style/img-space.png[height=150]
+
+[.notes]
+--
+TODO
+--
+
+[background-image=style/rcube.png, transition=none]
+== Notre leitmotiv
+
+[%step]
+image:style/kpi.png[height=600]
 
 image:style/img-space.png[height=150]
 
