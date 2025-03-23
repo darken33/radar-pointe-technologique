@@ -2,19 +2,19 @@
 :source-highlighter: pygments
 :sectanchors:
 :sectlinks:
-:customcss: style/prez.css
+:customcss: style/new-style.css
 :version: 1.0
 
-[background-image=style/title-bg.png, state=title]
+[background-image=style/background/bg-title-miage.png, state=title]
 == 5 ans de Radar Techno 
 
 Pour animer la communauté technique
 
-[background-image=style/technologies.png, transition=none]
+[background-image=style/technologies-miage.png, transition=none]
 == Technologies
 
-[%step]
 [.text-left]
+[%step]
 * L'accélération de l'innovation.
 * La complexification des systèmes.
 * La dépendance croissante aux technologies.
@@ -30,11 +30,11 @@ Aujourd'hui les technologies évoulent sans cesse :
 * La dépendance croissante aux technologies : les technologies informatiques sont devenues indispensables à de nombreux aspects de notre vie, tant personnelle que professionnelle.
 --
 
-[background-image=style/oportunity.png, transition=none]
+[background-image=style/oportunity-miage.png, transition=none]
 == Opportunités
 
-[%step]
 [.text-left]
+[%step]
 * Amélioration de l'efficacité.
 * Nouveaux produits et services.
 * Amélioration de l'expérience client.
@@ -52,11 +52,11 @@ Amélioration de l'expérience client : les technologies informatiques peuvent a
 * Nouvelles façons de travailler : les technologies informatiques peuvent permettre aux entreprises de créer de nouvelles façons de travailler, telles que le télétravail ou le travail collaboratif à distance.
 --
 
-[background-image=style/danger.png, transition=none]
+[background-image=style/danger-miage.png, transition=none]
 == Risques
 
-[%step]
 [.text-left]
+[%step]
 * Problème de maturité.
 * Faiblesse de sécurité.
 * Problèmes de conformité.
@@ -74,16 +74,36 @@ Celà présente également des risques et défis :
 * La formation : les compétences requises pour travailler dans le domaine de l'informatique évoluent rapidement, ce qui peut poser des problèmes de recrutement et de formation. 
 --
 
-[background-image=style/radar.png, transition=none]
-== 2019 : Radar Technologique
+[background-image=style/bg-hype-miage.png, transition=none]
+== Cycle de la Hype
 
 [%step]
+image:style/hype-cycle-fr.png[]
+
+image:style/img-space.png[height=100]
+
+[.notes]
+--
+Autre point à aborder, ce que le Gartner appelle le cycle de la hype :
+
+* Lancement : Lors d'un lancement, il arrive qu'il y ait une adoption très forte dès le début
+* Attentes : Mais il arrive que les attentes soient surdimensionnées
+* Creux : Si bien que par déception la technologie est rapidement délaissée
+* Consolidation : Certains continuent à croire en la techno mais prennent le temps de l'étudier
+* Plateau : pour en arriver à un plateau de productivité 
+--
+
+[background-image=style/radar-miage.png, transition=none]
+== 2019 : Radar Technologique
+
 [.text-left]
+[%step]
 * Piloter la veille & l'innovation
 * Suivi de java et de son eco-système
 * Favoriser le rayonnement technique
 * Renforcer le conseil AVV/Clients​
 * Alimenter les besoins en formation​
+* https://www.thoughtworks.com/radar[Radar ThoughtWorks]
 
 image:style/img-space.png[height=600]
 
@@ -100,18 +120,18 @@ Afin de nous aider pour tout ça nous avons mis en place, notamment sur la commu
 Donc ok mais comment on s'y prend ?
 --
 
-[background-image=style/slide_surveiller.png, transition=none]
+[background-image=style/surveiller-miage.png, transition=none]
 == Que surveiller ?
 
-[%step]
 [.text-left]
+[%step]
 image:style/quadrants.png[]
 
-[%step]
 [.text-left]
+[%step]
 * Techniques : Design First, DDD, Hexagonal, ...
 * Outils : IntelliJ, OWASP Tools, Karaté, Sonar, ...
-* Fameworks : Versions Java, Spring, Quarkus, ...
+* Frameworks : Versions Java, Spring, Quarkus, ...
 * Plateformes : Clouds, Serverless, Kubernetes, ...
 
 image:style/img-space.png[height=600]
@@ -130,15 +150,15 @@ Alors qu'est ce que nous souhaitons surveiller ?
 Nous savons ce que nous allons suivre, maintenant Comment Fait On ? 
 --
 
-[background-image=style/process.png, transition=none]
+[background-image=style/process-miage.png, transition=none]
 == Le process
 
-[%step]
 [.text-left]
+[%step]
 image:style/rayons.png[]
 
-[%step]
 [.text-left]
+[%step]
 * Assess - À l'étude (La veille technologique)
 * Trial - À l'essai (L'innovation opérationnelle)
 * Adopt - Standard (Le savoir faire)
@@ -156,25 +176,7 @@ Le radar possède 4 anneaux : ASSESS, TRIAL, ADOPT, HOLD
 * Il arrive qu'une technologie ne soit finalement pas convaincante, ou qu'au fil du temps elle soit un peu dépassée nous la passeront donc à Dépréciée, c'est adire que nous ne démmarerons pas de nouveaux projets avec elle, et que nous devons songer à la remplacer sur les porjets qui l'utilisent : cela fait partie de la gestion de la dette technique.
 --
 
-[background-image=style/sommaire.jpg, transition=none]
-== Les Architecture Decision Records
-
-[%step]
-[.text-left]
-* Acte une décision par rapport à une technologie
-* Date et décision concernant cette technologie
-* Une brève description du sujet
-* Un argumentaire justifiant la décision
-* Des références documentaires internes et externes
-
-image:style/img-space.png[height=600]
-
-[.notes]
---
-Un enregistrement de décision architecturale (ADR) est un document qui décrit le choix fait par la communauté concernant un sujet technologique et son utilisation au sein de SQLI, et comprend
---
-
-[background-image=style/radar.png, transition=none]
+[background-image=style/radar-miage.png, transition=none]
 == À quoi ça ressemble ?
 
 [%step]
@@ -190,9 +192,10 @@ Ceci est le radar du Pôle Java de SQLI France et nous pouvons y voir :
 À noter que ce radar évolue en permanence au grès des diverses études que nous pouvons mener.
 --
 
-[background-image=style/radar.png, transition=none]
+[background-image=style/radar-miage.png, transition=none]
 == Petit Zoom
 
+[%step]
 image:style/radar-zoom-lng.png[height=600]
 
 [.notes]
@@ -204,17 +207,44 @@ Si on zoome sur la partie Langages & Fremworks nous y retrouvons en étude et ex
 * La possibilité de faire des applications natives avec Spring
 --
 
-[background-image=style/success.png, transition=none]
-== Success story : Java
+[background-image=style/sommaire-miage.png, transition=none]
+== Les Architecture Decision Records
+
+[.text-left]
+[%step]
+* Acte une décision par rapport à une technologie
+* Date et décision concernant cette technologie
+* Une brève description du sujet
+* Un argumentaire justifiant la décision
+* Des références documentaires internes et externes
+
+image:style/img-space.png[height=600]
+
+[.notes]
+--
+Un enregistrement de décision architecturale (ADR) est un document qui décrit le choix fait par la communauté concernant un sujet technologique et son utilisation au sein de SQLI, et comprend
+--
+
+[background-image=style/sommaire-miage.png, transition=none]
+== Exemple : API First
 
 [%step]
+image:style/adr-api-first.png[height=600]
+
+image:style/img-space.png[height=150]
+
+[background-image=style/success-miage.png, transition=none]
+== Success story : Java
+
 [.text-left]
+[%step]
 * 2017 : Java 6/7 peu de Java 8
 * 2018 : Sortie de Java 11 non suivi
 * 2019 : Un client demande Java 11
 * 2020 : Suivi de toutes les versions
 * 2022 : SQLI propose au client Java 17
-* 2024 : Java 21 ready, Java 25 en ligne de mire
+* 2024 : SQLI propose désormais Java 21
+* 2025 : En route pour Java 25
 
 image:style/img-space.png[height=600]
 
@@ -228,15 +258,15 @@ Nous avons lancé un suivi des évolutions de chaque nouvelle version, des works
 Petit à petit nous avons étudiés les évolutions de java et finalement fin 2021 nous avons commencé à intégrer java 17 (2020), c'est SQLI qui a pris l'initiative.​
 --
 
-[background-image=style/use-cases.png, transition=none]
+[background-image=style/use-cases-miage.png, transition=none]
 == Autres uses cases
 
-[%step]
 [.text-left]
+[%step]
 * Développeur(se) : Prépare ses formations
 * Commercial(e) : Détecter une avant vente intéressante
 * Recruteur(se) : Repérer un candidat intéressant
-* Eexpert(e))/Tech Lead : Organiser la veille
+* Expert(e)/Tech Lead : Organiser la veille
 * Chef(fe) de projet : Suivre la dette de son projet
 
 image:style/img-space.png[height=600]
@@ -252,7 +282,7 @@ Voici maintenant quelques exemples d'utilisation du radar
 * Je suis CP : Je remarque que mon équipe n'est pas enthousiaste sue mon projet, peut être qui possèdes trop de technos à dépréciées ne pourrait on pas vendre une migration technique ?
 --
 
-[background-image=style/conclusion.png, transition=none]
+[background-image=style/conclusion-miage.png, transition=none]
 == Aller plus loin
 
 [%step]
@@ -265,16 +295,32 @@ image:style/img-space.png[height=150]
 TODO
 --
 
-[background-image=style/thanks.png, transition=none]
+[background-image=style/rcube-miage.png, transition=none]
+== Notre leitmotiv
+
+[%step]
+image:style/kpi.png[height=600]
+
+image:style/img-space.png[height=150]
+
+[.notes]
+--
+TODO
+--
+
+[background-image=style/thanks-miage.png, transition=none]
 == Merci
 
 image:style/img-space.png[height=30]
 
+[%step]
 image:style/fifi-sqli.png[]
 
+[%step]
 https://github.com/darken33/radar-pointe-technologique[Retrouvez la présentation ici]
 
-image:style/prez-radar.png[width=200]
+[%step]
+image:style/radar-prez.png[width=200]
 
 image:style/img-space.png[height=150]
 
