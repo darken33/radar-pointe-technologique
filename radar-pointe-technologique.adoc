@@ -180,7 +180,7 @@ Le radar possède 4 anneaux : ASSESS, TRIAL, ADOPT, HOLD
 == À quoi ça ressemble ?
 
 [%step]
-image:style/radar-jcf-2023.png[height=600]
+image:style/radar-jcf-2025.png[height=600]
 
 [.notes]
 --
@@ -196,7 +196,9 @@ Ceci est le radar du Pôle Java de SQLI France et nous pouvons y voir :
 == Petit Zoom
 
 [%step]
-image:style/radar-zoom-lng.png[height=600]
+image:style/radar-zoom.png[]
+
+image:style/img-space.png[height=200]
 
 [.notes]
 --
