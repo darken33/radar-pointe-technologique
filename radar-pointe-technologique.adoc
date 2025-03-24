@@ -212,6 +212,32 @@ Si on zoome sur la partie Langages & Fremworks nous y retrouvons en étude et ex
 [background-image=style/sommaire-miage.png, transition=none]
 == Les Architecture Decision Records
 
+[%step]
+[.text-left]
+* Acte une décision par rapport à une technologie
+* Date et décision concernant cette technologie
+* Une brève description du sujet
+* Un argumentaire justifiant la décision
+* Des références documentaires internes et externes
+
+image:style/img-space.png[height=600]
+
+[.notes]
+--
+Un enregistrement de décision architecturale (ADR) est un document qui décrit le choix fait par la communauté concernant un sujet technologique et son utilisation au sein de SQLI, et comprend
+--
+
+[background-image=style/sommaire.jpg, transition=none]
+== Exemple : API First
+
+image:style/adr-api-first.png[height=600]
+
+image:style/img-space.png[height=150]
+
+
+[background-image=style/success.png, transition=none]
+== Success story : Java
+
 [.text-left]
 [%step]
 * Acte une décision par rapport à une technologie
